@@ -178,6 +178,8 @@ PRODUCT_PACKAGES += \
     hwcomposer.sdm660 \
     memtrack.sdm660 \
     libdisplayconfig \
+	libdisplayservice \
+	libdisplayservicehidl \
     liboverlay \
     libtinyxml \
     libqdMetaData \
@@ -245,7 +247,7 @@ PRODUCT_PACKAGES += \
     android.hardware.health@1.0-convert \
     android.hardware.health@1.0-impl \
     android.hardware.health@1.0-service
-
+	
 # HIDL
 PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
@@ -415,7 +417,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.vibrator@1.0-impl \
     android.hardware.vibrator@1.0-service
-
+	
 # VNDK-SP:
 PRODUCT_PACKAGES += \
     vndk-sp
