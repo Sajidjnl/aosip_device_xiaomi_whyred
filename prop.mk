@@ -110,7 +110,7 @@ ro.bluetooth.hfp.ver=1.6
 
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
-camera.hal1.packagelist=com.skype.raider,com.google.android.talk \
+camera.hal1.packagelist=com.whatsapp,com.snapchat.android,com.instagram.android \
 vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,org.lineageos.snap \
 persist.camera.preview.ubwc=0 \
 persist.camera.stats.test=0 \
